@@ -11,9 +11,6 @@ DEVICE_PATH := device/onn/YOC
 ALLOW_MISSING_DEPENDENCIES := true
 
 # A/B
-AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS +=
-BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
 TARGET_ARCH := arm
