@@ -79,8 +79,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Verified Boot
-BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
@@ -89,7 +87,6 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_THEME := landscape_hdpi
-TARGET_RECOVERY_FORCE_PIXEL_FORMAT := "RGB_565"
 TW_BRIGHTNESS_PATH := /sys/class/leds/sys_led/brightness
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_SUPERSU := true
