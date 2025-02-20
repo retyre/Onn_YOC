@@ -21,12 +21,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.s4
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.s4 \
-    libgptutils \
-    libz \
-    libcutils
-
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
